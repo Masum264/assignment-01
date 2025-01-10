@@ -24,6 +24,7 @@
      padding-left: 60px;
      padding-bottom: 117px;
      padding-top: 117px;
+     
   }
   .banner-title{
     font-weight: medium;
@@ -55,3 +56,80 @@
     padding-right: 60px;
     padding-bottom: 80px;
   }
+
+  /* vision styles */
+  .vision-class{
+     margin: 120px 160px auto 160px;
+     max-width: 1280px;
+  }
+  .visions{
+    display: flex;
+    gap: 24px;
+   
+  }
+  .vision-future-title{
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  .vision-future-description{
+    font-size: 16px;
+    font-weight: regular;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+  }
+  .vision{
+
+    border-radius: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    
+
+  }
+  .bg-color1{
+    background-color: rgba(84, 144, 245, 0.2);
+  }
+  .bg-color2{
+    background-color: rgba(198, 228, 214, 1);
+  }
+  .bg-color3{
+    background-color: rgba(247, 235, 207, 1);
+  }
+  .vision-btn1{
+    background-color: rgba(84, 144, 245, 1);
+    
+  }
+  .vision-btn2{
+    background-color: rgba(9, 161, 92, 1);
+    
+  }
+  .vision-btn3{
+    background-color: rgba(255, 194, 57, 1);
+    
+  }
+  .vision-btn{
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    margin-top: 48px;
+    
+
+  }
+
+  .vision img{
+    padding-top: 32px;
+  }
+  .vision h4{
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+  .vision p{
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.7);
+  }
+  
