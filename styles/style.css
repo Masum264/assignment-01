@@ -132,4 +132,79 @@
     margin-top: 12px;
     color: rgba(14, 14, 14, 0.7);
   }
-  
+
+  /* recent-news styles */
+  .news-class{
+    margin-top: 80px;
+    margin-right: 160px;
+    margin-left: 160px;
+    max-width: 1280px;
+  }
+  .news-title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+  }
+  .news-description{
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+  }
+  .news-container{
+    display: flex;
+    border-radius: 24px;
+    gap: 32px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .news-image{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 48px;
+    
+  }
+  .news-image img{
+    border-radius: 24px;
+  }
+  .news-headline{
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .news-date-time{
+    display: flex;
+    gap: 12px;
+  }
+  .para-color{
+    color: rgba(14, 14, 14, 0.7);
+  }
+  .aljajeera-logo{
+    margin-top: 12px;
+  }
+  .news-para{
+    margin-top: 12px;
+  }
+  .btn-news{
+    border-radius: 8px;
+    background-color: rgba(0, 106, 80, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: semi bold;
+    font-size: 18px;
+    padding: 13px 26px;
+    margin-top: 24px;
+    border: none;
+  }
+  .news-content{
+    margin-right: 48px;
+  }
+
+  /* recent-news2 styles */
+  .news-image2{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: 48px;
+    
+  }
+  .news-image2 img{
+    border-radius: 24px;
+  }
+  .news-content{
+    margin-left: 48px;
+  }
