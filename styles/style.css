@@ -208,3 +208,57 @@
   .news-content{
     margin-left: 48px;
   }
+
+  /* donation-class styles */
+  .donation{
+    margin-top: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+    max-width: 1280px;
+  }
+  .donate-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .donate-para{
+    text-align: center;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    padding-left: 88px;
+    padding-right: 88px;
+  }
+  .money{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    padding-left: 104.5px;
+    padding-right: 104.5px;
+  }
+  .money-box{
+    font-weight: bold;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    max-width: 243px;
+    padding: 40px;
+    margin-top: 32px;
+  }
+  .money-box2{
+    background-color: rgba(198, 228, 214, 1);
+  }
+  .donate-text{
+    margin-top: 32px;
+    max-width: 1032px;
+    padding-left: 124px;
+    padding-right: 124px;
+
+  }
+  .donate-text input[type="text"]{
+    padding: 20px 422.5px;
+    
+  }
+  .btn-donate{
+    padding-left: 564.5px;
+    padding-right: 564.5px;
+  }
