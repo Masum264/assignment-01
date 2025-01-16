@@ -150,19 +150,19 @@
   }
   .news-description{
     color: rgba(14, 14, 14, 0.7);
-    margin-bottom: 32px;
+    margin-bottom: 10px;
   }
   .news-container{
     display: flex;
     border-radius: 24px;
+    justify-content: space-around;
     gap: 32px;
     background-color: rgba(255, 255, 255, 1);
   }
   .news-image{
-    margin-top: 48px;
-    margin-bottom: 48px;
-    margin-left: 48px;
-    
+    padding-left: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
   .news-image img{
     border-radius: 24px;
@@ -299,7 +299,7 @@
     padding-right: 265px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 
   }
   .subscribe-text input[type="text"]{
@@ -317,5 +317,37 @@
   .btn-primary:hover{
     background-color: #b9c4c0;
 }
+/* quote class styles */
+.quote{
+  margin: 120px 160px auto 160px;
+  max-width: 1280px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  
+  
+  
+}
+.quote-para{
+  background-image: url('../assets/quote-bg.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 64px 64px;
+  background-origin: content-box;
+  background-position-y:center;
+  background-position-x:left;
+  color: rgba(14, 14, 14, 0.8);
+  padding: 48px 24px 0 24px;
 
+}
+.quote-title{
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 24px;
+}
+.quote-para2{
+  color: rgba(14, 14, 14, 0.8);
+  padding-top: 4px;
+  padding-left: 24px;
+  padding-bottom: 48px;
+}
   
